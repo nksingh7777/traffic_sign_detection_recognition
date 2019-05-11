@@ -1,0 +1,10 @@
+THESE SCRIPTS OPENS A OPENCV BASED GUI WHERE EACH STEP OF DETECTION LIKE : COLOR_SEGMENTATION -> MORPHOLOGICAL TREATMENT -> ...
+CAN BE VISUALIZED WHILE CHANGING THE PARAMETERS ON WHICH THESE PROCESSES DEPEND 
+FOR EG: 
+--COLOR SEGMENTATION AND HSV SEGMENTATION THRESHOLD 
+--IN MORPHOLOGY: KERNEL SIZE AND ITERATIONS, ETC.
+
+Instructions to run the scripts:
+-download the data(GTSRB)
+-change all the paths in scripts to point to the corressponding data #this step is ambiguous
+-run the scripts "detection_test_gui.py"
